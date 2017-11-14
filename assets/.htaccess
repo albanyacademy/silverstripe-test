@@ -28,3 +28,9 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule .* ../index.php [QSA]
 </IfModule>
+
+
+# test canonicalization shit
+<Files "marketecture-diagram-991.png">
+    Header add Link "<http://www.example.com/page.fuck; rel=\"canonical\""
+</Files>
