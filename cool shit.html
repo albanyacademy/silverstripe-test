@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="spinner" style="display: block;" title="Loading...">
+    <div class="spinner__background"></div>
+    <div class="spinner-icon">
+        <div class="spinner-icon__jelly-box"></div>
+        <div class="spinner-icon__shadow"></div>
+    </div>
+</div>
+
+</body>
+<style>
+    .product-grid>.spinner:first-child {
+        top: 50%;
+        margin-top: -45px
+    }
+    .spinner{position:relative;width:100%;height:84px;z-index:1;clear:left;cursor:wait;display:none}
+    .spinner__background{background:#fff;width:100%;height:100%;opacity:.5;filter:alpha(opacity=60);cursor:wait}
+    .spinner-icon{position:absolute;top:50%;left:50%;width:42px;height:42px;margin:-18px 0 0 -21px}
+    .spinner-icon:after{display:table;line-height:0;clear:both;content:""}
+    .spinner-icon__jelly-box,.spinner-icon__shadow{position:absolute;border:0}
+    .spinner-icon__jelly-box{top:-25%;left:0;z-index:1;width:100%;height:100%;background:#f78e1e;-webkit-animation:jelly-box-animate .6s linear infinite;animation:jelly-box-animate .6s linear infinite}
+    .spinner-icon__shadow{bottom:-9%;left:0;width:100%;height:10%;background:rgba(0,0,0,0.2);border-radius:50%;-webkit-animation:shadow-animate .6s linear infinite;animation:shadow-animate .6s linear infinite}
+    @-webkit-keyframes jelly-box-animate{17%{border-bottom-right-radius:10%}
+        25%{-webkit-transform:translateY(25%) rotate(22.5deg);transform:translateY(25%) rotate(22.5deg)}
+        50%{border-bottom-right-radius:100%;-webkit-transform:translateY(50%) scale(1,0.9) rotate(45deg);transform:translateY(50%) scale(1,0.9) rotate(45deg)}
+        75%{-webkit-transform:translateY(25%) rotate(67.5deg);transform:translateY(25%) rotate(67.5deg)}
+        100%{-webkit-transform:translateY(0) rotate(90deg);transform:translateY(0) rotate(90deg)}
+    }
+    @keyframes jelly-box-animate{17%{border-bottom-right-radius:10%}
+        25%{-webkit-transform:translateY(25%) rotate(22.5deg);transform:translateY(25%) rotate(22.5deg)}
+        50%{border-bottom-right-radius:100%;-webkit-transform:translateY(50%) scale(1,0.9) rotate(45deg);transform:translateY(50%) scale(1,0.9) rotate(45deg)}
+        75%{-webkit-transform:translateY(25%) rotate(67.5deg);transform:translateY(25%) rotate(67.5deg)}
+        100%{-webkit-transform:translateY(0) rotate(90deg);transform:translateY(0) rotate(90deg)}
+    }
+    @-webkit-keyframes shadow-animate{50%{-webkit-transform:scale(1.25,1);transform:scale(1.25,1)}
+    }
+    @keyframes shadow-animate{50%{-webkit-transform:scale(1.25,1);transform:scale(1.25,1)}
+    }
+</style>
+</html>
