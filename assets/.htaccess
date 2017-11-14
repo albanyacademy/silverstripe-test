@@ -32,5 +32,5 @@
 
 # test canonicalization shit
 <Files "marketecture-diagram-991.png">
-    Header add Link "<http://www.example.com/page.fuck; rel=\"canonical\""
+    Header add Link "<http://www.example.com/page.fuck>; rel=\"canonical\""
 </Files>

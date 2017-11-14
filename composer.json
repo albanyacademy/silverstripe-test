@@ -24,7 +24,8 @@
         "stevie-mayhew/silverstripe-svg": "2.1.0",
         "silverstripe/multiform": "*",
         "heyday/silverstripe-responsive-images": "^2.0",
-        "axllent/silverstripe-trailing-slash": "*"
+        "axllent/silverstripe-trailing-slash": "*",
+        "silverstripe/redirectedurls": "^1.0"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"

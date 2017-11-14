@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddaab71b187257c760a193c1d5ecf2b0",
+    "content-hash": "d1f01412acb9fe6154ae7f707942c31a",
     "packages": [
         {
             "name": "axllent/silverstripe-trailing-slash",
@@ -1972,6 +1972,43 @@
             ],
             "description": "Helper plugin to install SilverStripe recipes",
             "time": "2017-08-29T23:05:36+00:00"
+        },
+        {
+            "name": "silverstripe/redirectedurls",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-redirectedurls.git",
+                "reference": "1b15b7fcc025c6a650936c9de0d0564c3ddbf0fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-redirectedurls/zipball/1b15b7fcc025c6a650936c9de0d0564c3ddbf0fa",
+                "reference": "1b15b7fcc025c6a650936c9de0d0564c3ddbf0fa",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": ">=3.0.0"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Minnee",
+                    "email": "sam@silverstripe.com"
+                }
+            ],
+            "description": "Provides a system for users to configure arbitrary redirections in the CMS",
+            "keywords": [
+                "redirect",
+                "redirectedurls",
+                "silverstripe",
+                "urls"
+            ],
+            "time": "2014-12-09T02:11:26+00:00"
         },
         {
             "name": "silverstripe/reports",
