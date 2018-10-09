@@ -22,10 +22,8 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/recipe-core" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/reports" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/siteconfig" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/errorpage" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/cms" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/admin" />
@@ -34,7 +32,6 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/asset-admin" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/recipe-cms" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
       <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/assets" />
@@ -69,10 +66,39 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/undefinedoffset/sortablegridfield" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/lumberjack" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/widgets" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/blog" />
+      <path value="$PROJECT_DIR$/vendor/symbiote/silverstripe-gridfieldextensions" />
+      <path value="$PROJECT_DIR$/vendor/axllent/silverstripe-gfmarkdown" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symbiote/silverstripe-advancedworkflow" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/contentreview" />
+      <path value="$PROJECT_DIR$/vendor/symbiote/silverstripe-queuedjobs" />
+      <path value="$PROJECT_DIR$/vendor/symbiote/silverstripe-datachange-tracker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/asyncphp/doorman" />
+      <path value="$PROJECT_DIR$/vendor/nglasl/silverstripe-extensible-search" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/vendor/dnadesign/silverstripe-elemental" />
+      <path value="$PROJECT_DIR$/vendor/unclecheese/display-logic" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/redirectedurls" />
+      <path value="$PROJECT_DIR$/vendor/ryanpotter/silverstripe-cms-theme" />
+      <path value="$PROJECT_DIR$/vendor/cyber-duck/silverstripe-seo" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
       <path value="$PROJECT_DIR$/vendor/silverstripe/tagfield" />
-      <path value="$PROJECT_DIR$/vendor/tractorcow/silverstripe-fluent" />
-      <path value="$PROJECT_DIR$/vendor/stevie-mayhew/silverstripe-svg" />
-      <path value="$PROJECT_DIR$/vendor/axllent/silverstripe-trailing-slash" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/recipe-cms" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/recipe-core" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/errorpage" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/crontask" />
+      <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/silverstripe/dynamodb" />
     </include_path>
   </component>
 </project>

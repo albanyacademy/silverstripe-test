@@ -1,6 +1,0 @@
----
-Name: mvfieldtypes
----
-SilverStripe\Core\Injector\Injector:
-  MultiValueField:
-    class: Symbiote\MultiValueField\Fields\MultiValueField

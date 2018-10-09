@@ -1,8 +1,0 @@
----
-Name: sitewidecontentreview
-Only:
-  moduleexists: contentreview
----
-SilverStripe\SiteWideContentReport\SitewideContentReport:
-  extensions:
-    - SilverStripe\SiteWideContentReport\Model\SitewideContentReview

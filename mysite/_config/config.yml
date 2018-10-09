@@ -1,0 +1,38 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: mysite
+SilverStripe\ORM\Search\FulltextSearchable:
+  searchable_classes:
+    - 'SilverStripe\CMS\Model\SiteTree'
+SilverStripe\CMS\Model\SiteTree:
+  create_table_options:
+    MySQLDatabase: 'ENGINE=MyISAM'
+  extensions:
+    - "SilverStripe\\ORM\\Search\\FulltextSearchable('Title', 'MenuTitle', 'Content', 'MetaDescription')"
+PageController:
+  extensions:
+    - 'nglasl\extensible\ExtensibleSearchExtension'
+SilverStripe\Assets\File:
+  allowed_extensions:
+    - svg
+  app_categories:
+    image:
+      - svg
+    image/supported:
+      - svg
+SilverStripe\Assets\Image:
+  allowed_extensions:
+    - svg
+SilverStripe\SiteConfig\SiteConfig:
+  required_permission:
+    - SITETREE_VIEW_ALL
+    - SITETREE_EDIT_ALL
+  cms_logo: 'mysite/esentire-logo.svg'
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - CustomAdmin
+#Page:
+#  extensions:
+#    - DNADesign\Elemental\Extensions\ElementalPageExtension

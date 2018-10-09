@@ -1,9 +1,0 @@
----
-Name: bloglegacy
----
-SilverStripe\ORM\DatabaseAdmin:
-  classname_value_remapping:
-    Blog: SilverStripe\Blog\Model\Blog
-    BlogCategory: SilverStripe\Blog\Model\BlogCategory
-    BlogPost: SilverStripe\Blog\Model\BlogPost
-    BlogTag: SilverStripe\Blog\Model\BlogTag

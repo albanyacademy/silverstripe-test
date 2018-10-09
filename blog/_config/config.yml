@@ -1,6 +1,0 @@
----
-Name: blogconfig
----
-SilverStripe\Security\Member:
-  extensions:
-    - SilverStripe\Blog\Model\BlogMemberExtension

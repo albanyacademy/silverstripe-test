@@ -1,0 +1,80 @@
+.font-icon-silverstripe:before {
+    content:url("../../../mysite/images/esentire-e-white.svg");
+    height:150px;
+    width:150px;
+    padding:30px;
+    background:#a93439;
+    border-radius:100%;
+    animation: rotate 0.5s infinite cubic-bezier(0.25, 0.25, 1, 1);
+    box-shadow:0 0 20px rgba(50, 0, 0, 0.5);
+    transition:opacity 1s ease-in-out
+}
+
+#cms-menu {
+    background-color: #a93439 !important;
+    overflow-x:hidden;
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.3) 100%),linear-gradient(33deg, hsla(357, 87%, 38%, 0.5), hsla(211, 100%, 21%, 0.5)),linear-gradient( to right, hsla(357, 87%, 38%, 0.5), hsla(211, 100%, 21%, 0.5)) !important;
+}
+
+#cms-menu .cms-sitename {
+    padding: 1rem 2rem 0.5rem;
+    border: 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+    background-color: rgba(169, 52, 57, 0.5);
+    transition:all 0.5s;
+}
+
+#cms-menu .cms-sitename:hover {
+    background-color: rgba(169, 52, 57, 0.9)!important;
+}
+
+#cms-menu .cms-menu__list li.current a
+{
+    background-image: linear-gradient(33deg, hsla(357, 100%, 55%, 0.15), hsla(0, 100%, 50%, 0.5)) !important;
+    color: #fff !important;
+    background-color: #a93439!important;
+    -webkit-box-shadow: inset #993333 -1px 0 0 !important;
+    box-shadow: inset -1px 0 0 #993333 !important;
+}
+
+#cms-menu .cms-login-status {
+    background: rgba(88, 23, 23, 0.3);
+    box-shadow: inset 0 -5px 10px rgba(0,0,0,0.1);
+}
+
+#cms-menu .cms-login-status .cms-login-status__profile-link,
+#cms-menu .cms-login-status .cms-login-status__logout-link {
+    transition:all 0.5s;
+}
+
+#cms-menu .cms-menu__list li:hover a,
+#cms-menu .cms-login-status .cms-login-status__profile-link:focus,
+#cms-menu .cms-login-status .cms-login-status__profile-link:hover,
+#cms-menu .cms-login-status .cms-login-status__logout-link:focus,
+#cms-menu .cms-login-status .cms-login-status__logout-link:hover{
+    background-color: hsla(357, 73%, 49%, 0.3)!important;
+}
+
+#cms-menu .cms-menu__header {
+    background: transparent!important;
+}
+
+.cms-menu__list .branded-menu__list-item a {
+    transition:all 0.5s;
+    background: transparent!important;
+}
+
+@keyframes rotate {
+    0% {
+        transform:rotate(0deg);
+        opacity:0.1;
+    }
+    50% {
+        transform:rotate(180deg);
+        opacity:1;
+    }
+    100% {
+        transform:rotate(360deg);
+        opacity:0.1;
+    }
+}

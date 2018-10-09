@@ -4,28 +4,27 @@
     "description": "The SilverStripe Framework Installer",
     "require": {
         "php": ">=5.6.0",
-        "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "1.0.0@stable",
+        "silverstripe/recipe-plugin": "^1.1",
         "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/versioned": "^1.0",
-        "silverstripe/campaign-admin": "^1.0",
-        "silverstripe/sitewidecontent-report": "^2.0",
-        "symbiote/silverstripe-multivaluefield": "^4.0",
         "undefinedoffset/sortablegridfield": "2.0.*@dev",
-        "symbiote/silverstripe-gridfieldextensions": "^3.0",
-        "unclecheese/betterbuttons": "2.x-dev",
-        "wilr/silverstripe-googlesitemaps": "^1.8",
         "silverstripe/lumberjack": "2.0.0-alpha1",
-        "silverstripe/blog": "3.0.0-alpha1",
-        "colymba/gridfield-bulk-editing-tools": "3.*",
-        "symbiote/silverstripe-advancedworkflow": "5.0.3",
-        "silverstripe/taxonomy": "dev-master",
-        "tractorcow/silverstripe-fluent": "4.0.0-alpha1",
-        "stevie-mayhew/silverstripe-svg": "2.1.0",
-        "silverstripe/multiform": "*",
-        "heyday/silverstripe-responsive-images": "^2.0",
-        "axllent/silverstripe-trailing-slash": "*",
-        "silverstripe/redirectedurls": "^1.0"
+        "silverstripe/blog": "3.0.x-dev",
+        "silverstripe/widgets": "2.0.0-beta1",
+        "symbiote/silverstripe-advancedworkflow": "^5.0",
+        "axllent/silverstripe-gfmarkdown": "^2.2",
+        "symbiote/silverstripe-datachange-tracker": "~5.0",
+        "unclecheese/display-logic": "^2.0",
+        "nglasl/silverstripe-extensible-search": "^4.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3",
+        "symbiote/silverstripe-queuedjobs": "^4.1",
+        "dnadesign/silverstripe-elemental": "2.x-dev",
+        "silverstripe/contentreview": "^4.0",
+        "silverstripe/redirectedurls": "dev-master",
+        "ryanpotter/silverstripe-cms-theme": "2.1.4",
+        "cyber-duck/silverstripe-seo": "4.1.2",
+        "silverstripe/recipe-cms": "^4.2",
+        "silverstripe/crontask": "^2.1",
+        "silverstripe/dynamodb": "^4.0"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
@@ -33,6 +32,11 @@
     "extra": {
         "project-files-installed": [
             ".htaccess",
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php",
             "index.php",
             "install-frameworkmissing.html",
             "install.php",
@@ -41,6 +45,13 @@
             "mysite/_config/mysite.yml",
             "mysite/code/Page.php",
             "mysite/code/PageController.php",
+            "web.config"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
             "web.config"
         ]
     },
