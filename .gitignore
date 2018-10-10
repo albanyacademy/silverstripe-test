@@ -6,3 +6,5 @@
 /.idea
 /assets
 /multiform
+/.editorconfig
+/index.php
