@@ -25,7 +25,7 @@ body
     background-color: #fff;
     background-image: linear-gradient(to bottom, #fafafa, #fff 300px);
     transition: padding-top 0.5s;
-    color:#4286f4;
+    color:#082141;
 }
 
 #main {
@@ -571,7 +571,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #a93439;
+    color: #007bff;
 }
 
 
@@ -597,17 +597,17 @@ buttons
     text-decoration: none; }
 
 .btn-primary {
-    background-color: #a93439;
-    border-color: #a93439;
-    background-image: linear-gradient(284deg, rgba(255, 56, 66, 0.51), rgba(169, 52, 57, 0.5));
+    background-color: #007bff;
+    border-color: #007bff;
+    background-image: linear-gradient(284deg, rgba(51, 105, 231, 0.62), rgba(0, 174, 255, 0.5));
     color: #fff; }
 @media (min-width: 992px) {
     .btn-primary:hover, .btn-primary:focus {
-        background-color: #7d0000;
-        border-color: #993333;
+        background-color: #063b73;
+        border-color: #2773c5;
         color: #fff; } }
 
-.btn-accent {
+/*.btn-accent {
     background-color: #007bff;
     border-color: #007bff;
     background-image: linear-gradient(284deg, rgba(51, 105, 231, 0.62), rgba(0, 174, 255, 0.5));
@@ -616,7 +616,7 @@ buttons
     .btn-accent:hover, .btn-accent:focus {
         background-color: #063b73;
         border-color: #2773c5;
-        color: #fff; } }
+        color: #fff; } }*/
 
 .btn-delete {
     background-color: tomato;

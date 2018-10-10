@@ -40,7 +40,7 @@
 <div id="cookies" class="hidden container-fluid">
     <div class="center-xs middle-xs row">
         <p class="cookie-copy">This site uses cookies. The types of cookies we use, and the way we use them, are explained in our <a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a>. By clicking "Accept" or continuing to use our site, you agree to our use of Cookies.</p>
-        <a class="cookies-state btn btn-accent" href="#cookies">Accept</a>
+        <a class="cookies-state btn btn-primary" href="#cookies">Accept</a>
         <a class="cookies-state" href="#cookies">Decline</a>
 	</div>
 </div>

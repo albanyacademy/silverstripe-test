@@ -24,6 +24,6 @@
             </ul>
         <% end_if %>
         <div class="page-nav-ctas row no-margin">
-            <a class="btn btn-accent">Contact Us</a>
+            <a class="btn btn-primary">Contact Us</a>
         </div>
 </nav>
